@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import classes from '../../components/Order/Order.css';
 import Order from '../../components/Order/Order';
 
 class Orders extends Component {
@@ -30,16 +31,16 @@ class Orders extends Component {
                 'height': '50%',
                 'width': '100%',
                 'border': '1px solid gray',
-                'border-radius': '5px',
+                'borderRadius': '5px',
                 'margin': '10px auto',
-                'margin-bottom': '10px',
-                'text-align': 'center',
-                'box-shadow': '4px 5px indianred',
+                'marginBottom': '10px',
+                'textAlign': 'center',
+                'boxShadow': '4px 5px indianred',
                 }}>No orders placed !!!</div>);
         }
 
         return(
-            <div>
+            <div className={classes.Orders}>
                {orders} 
             </div>
         );

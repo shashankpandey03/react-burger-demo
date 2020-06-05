@@ -39,9 +39,11 @@ class ContactData extends Component {
             .then(response => {
                 this.setState({ loading: false});
                 console.log(response);
+                this.props.history.replace('/orders');
             }).catch(error => {
                 this.setState({ loading: false});
                 console.log(error);
+                this.props.history.replace('/orders');
             });
     };
 
@@ -85,7 +87,7 @@ class ContactData extends Component {
                             <option key="cheapest">Cheapest</option>
                         </select>
                     </div>
-                    <div style={{'margin-bottom' :'10px'}}>
+                    <div style={{'marginBottom' :'10px'}}>
                         <button onClick={this.handleOrder}>ORDER</button>
                     </div>
                 </form>

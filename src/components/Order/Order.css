@@ -8,3 +8,9 @@
     box-shadow: 4px 5px indianred;
     transition: all 2.5s ease-in-out;
 }
+
+.Orders {
+    height: 350px;
+    width: 100%;
+    overflow-y: auto;
+}

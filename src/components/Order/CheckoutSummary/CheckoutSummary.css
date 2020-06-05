@@ -1,0 +1,27 @@
+.SUCCESS {
+    color: green;
+}
+
+.DANGER {
+    color: red;
+}
+
+button.SUCCESS,
+button .DANGER {
+    display: inline-block;
+    flex-flow: row;
+    align-items: center;
+    margin : 10px;
+}
+
+.CheckoutSummary {
+    text-align: center;
+    width:80%;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+    .CheckoutSummary {
+        width: 500px;
+    }
+}

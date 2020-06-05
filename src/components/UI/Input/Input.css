@@ -1,0 +1,18 @@
+.Input {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label {
+    margin: 0 0 10px 40px;
+    font-weight: bold;   
+    align-content: right;
+    flex-wrap: wrap; 
+}
+
+.SingleRow {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+}

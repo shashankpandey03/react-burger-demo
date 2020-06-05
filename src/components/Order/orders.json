@@ -1,0 +1,34 @@
+{
+    "orders": [{
+        "customer" : {
+            "address": "Pandeyji Villa",
+            "country": "India",
+            "name": "Shashank",
+            "deliveryMethod": "fastest",
+            "email": "a@b.com"
+        },
+        "ingredients": {
+            "bacon": 1,
+            "cheese": 0,
+            "meat": 0,
+            "salad": 1
+        },
+        "price": 1.2
+    },
+    {
+        "customer" : {
+            "address": "Pandeyji Villa",
+            "country": "India",
+            "name": "Shashank",
+            "deliveryMethod": "fastest",
+            "email": "a@b.com"
+        },
+        "ingredients": {
+            "bacon": 1,
+            "cheese": 0,
+            "meat": 0,
+            "salad": 1
+        },
+        "price": 1.2
+    }]
+}

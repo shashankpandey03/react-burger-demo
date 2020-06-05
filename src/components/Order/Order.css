@@ -1,0 +1,10 @@
+.Order  {
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 4px 5px indianred;
+    transition: all 2.5s ease-in-out;
+}
